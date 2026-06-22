@@ -66,7 +66,7 @@ const SKILLS_BY_WEAPON = {
   shinai: [
     { id:'men_basic',   tier:'basic',    ko:'머리치기',      icon:'⬆️', unlock:{ men_hits:20 },    effect_ko:'머리 공격력 +15%',     how_ko:'수련장에서 머리치기 선택 후 수련. 대회에서 머리 공격으로 사용.' },
     { id:'kote_basic',  tier:'basic',    ko:'손목치기',      icon:'⬅️', unlock:{ kote_hits:20 },   effect_ko:'속도 +15%',            how_ko:'수련장에서 손목치기 선택 후 수련. 대회에서 손목 공격으로 사용.' },
-    { id:'do_basic',    tier:'basic',    ko:'몸통치기',      icon:'➡️', unlock:{ do_hits:20 },     effect_ko:'체력 +15%',            how_ko:'수련장에서 몸통치기 선택 후 수련. 대회에서 측면 공격으로 사용.' },
+    { id:'do_basic',    tier:'basic',    ko:'허리치기',      icon:'➡️', unlock:{ do_hits:20 },     effect_ko:'체력 +15%',            how_ko:'수련장에서 몸통치기 선택 후 수련. 대회에서 측면 공격으로 사용.' },
     { id:'tsuki_basic', tier:'basic',    ko:'찌르기',        icon:'⬇️', unlock:{ tsuki_hits:20 },  effect_ko:'집중력 +15%',          how_ko:'수련장에서 찌르기 선택 후 수련. 대회에서 빠른 찌르기로 사용.' },
     { id:'renzoku',     tier:'advanced', ko:'연속 공격',     icon:'⚡', unlock:{ men_hits:100, kote_hits:100 }, effect_ko:'대회에서 2연속 공격', how_ko:'대회 전투 스킬 슬롯에서 사용. 2회 연속 타격.' },
     { id:'feint',       tier:'advanced', ko:'속임 동작',     icon:'👁️', unlock:{ foc:150 },         effect_ko:'상대 방어 무력화 확률 +30%', how_ko:'대회 전투에서 방어 직후 사용.' },
@@ -228,7 +228,7 @@ const TOURNAMENT_OPPONENTS = {
 const BATTLE_ACTIONS = [
   { id:'attack_1', ko:'머리치기',  icon:'⬆️', hit_rate:0.72, dmg_mult:1.0,  type:'attack' },
   { id:'attack_2', ko:'손목치기',  icon:'⬅️', hit_rate:0.80, dmg_mult:0.8,  type:'attack' },
-  { id:'attack_3', ko:'몸통치기',  icon:'➡️', hit_rate:0.60, dmg_mult:1.4,  type:'attack' },
+  { id:'attack_3', ko:'허리치기',  icon:'➡️', hit_rate:0.60, dmg_mult:1.4,  type:'attack' },
   { id:'attack_4', ko:'찌르기',   icon:'⬇️', hit_rate:0.85, dmg_mult:0.7,  type:'attack' },
   { id:'guard',    ko:'방어',      icon:'🛡️', hit_rate:1.0,  dmg_mult:0,    type:'guard'  },
   { id:'dodge',    ko:'회피',      icon:'💨', hit_rate:0.55, dmg_mult:0,    type:'dodge'  },
