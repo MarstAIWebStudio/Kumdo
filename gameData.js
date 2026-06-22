@@ -12,7 +12,7 @@ const WEAPONS = {
     strikes: [
       { id:'men',   ko:'머리치기', icon:'⬆️', trainStat:'str', trainFoc:'foc', desc:'머리를 위에서 아래로 내려침. 기술력·집중력 상승.' },
       { id:'kote',  ko:'손목치기', icon:'⬅️', trainStat:'spd', trainFoc:'foc', desc:'상대 손목을 빠르게 노림. 속도·집중력 상승.' },
-      { id:'do',    ko:'몸통치기', icon:'➡️', trainStat:'hp',  trainFoc:'men', desc:'옆구리를 대각선으로 벰. 체력·정신력 상승.' },
+      { id:'do',    ko:'허리치기', icon:'➡️', trainStat:'hp',  trainFoc:'men', desc:'옆구리를 대각선으로 벰. 체력·정신력 상승.' },
       { id:'tsuki', ko:'찌르기',  icon:'⬇️', trainStat:'foc', trainFoc:'men', desc:'목을 정면으로 찌름. 집중력·정신력 상승.' },
     ],
     skills: ['men_basic','kote_basic','do_basic','tsuki_basic','renzoku','feint','harai','nuki','mushin','zanshin','kiai','hissatsu'],
