@@ -199,7 +199,8 @@ const TOURNAMENT_STAGES = [
   { id:'local',    ko:'지역 대회',  req_dan:1, ai_power:0.28, prize:1500,  icon:'🏯', desc:'첫 번째 관문. 지역 검도인들과 겨룹니다.' },
   { id:'city',     ko:'시 대회',    req_dan:2, ai_power:0.45, prize:4000,  icon:'🏟️', desc:'시를 대표하는 강자들이 모입니다.' },
   { id:'regional', ko:'도 대회',    req_dan:4, ai_power:0.62, prize:12000, icon:'⛩️', desc:'도 최강을 가리는 대회입니다.' },
-  { id:'national', ko:'전국 대회',  req_dan:6, ai_power:0.82, prize:50000, icon:'👑', desc:'전국 최강자를 가리는 최후의 무대입니다.', is_final:true },
+  { id:'national', ko:'전국 대회',  req_dan:6, ai_power:0.82, prize:50000, icon:'👑', desc:'전국 최강자를 가리는 최후의 무대입니다.' },
+  { id:'world', ko:'전국 대회',  req_dan:6, ai_power:0.82, prize:50000, icon:'👑', desc:'전국 최강자를 가리는 최후의 무대입니다.', is_final:true },
 ];
 
 const TOURNAMENT_OPPONENTS = {
@@ -214,14 +215,19 @@ const TOURNAMENT_OPPONENTS = {
     { name_ko:'오달인', power:0.54, dan:3, quote_ko:'가볍게 보지 마라.', hp:800 },
   ],
   regional: [
-    { name_ko:'도 챔피언 윤', power:0.60, dan:5, quote_ko:'도 최강이다.',    hp:820 },
-    { name_ko:'철의 검사 문', power:0.67, dan:6, quote_ko:'철의 의지!',      hp:860 },
+    { name_ko:'김승후', power:0.60, dan:5, quote_ko:'도 최강이다.',    hp:820 },
+    { name_ko:'도 챔피언 윤', power:0.67, dan:6, quote_ko:'철의 의지!',      hp:860 },
     { name_ko:'흑룡 서',      power:0.74, dan:6, quote_ko:'흑룡의 검!',      hp:900 },
   ],
   national: [
     { name_ko:'전국 강자 정', power:0.80, dan:7, quote_ko:'전국 최강을 꿈꾸나?',      hp:930 },
     { name_ko:'검성 이도',    power:0.88, dan:8, quote_ko:'검성의 경지를 보여주마.',  hp:990 },
-    { name_ko:'미야모토 켄',  power:0.96, dan:9, quote_ko:'나를 넘을 수 있겠느냐.',  hp:1100, is_final_boss:true },
+    { name_ko:'미야모토 켄',  power:0.96, dan:9, quote_ko:'나를 넘을 수 있겠느냐.',  hp:1100 },
+  ],
+  world: [
+    { name_ko:'켄지', power:0.80, dan:7, quote_ko:'미안한데, 내가 우승해줄게.',      hp:1300 },
+    { name_ko:'레이',    power:0.88, dan:8, quote_ko:'you cannot win',  hp:1800 },
+    { name_ko:'???',  power:0.96, dan:9, quote_ko:'이길 수 있겠어?',  hp:2200, is_final_boss:true },
   ],
 };
 
