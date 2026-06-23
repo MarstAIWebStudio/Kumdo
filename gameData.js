@@ -204,24 +204,24 @@ const TOURNAMENT_STAGES = [
 
 const TOURNAMENT_OPPONENTS = {
   local:    [
-    { name_ko:'박민수', power:0.22, dan:1, quote_ko:'열심히 해봐!',     hp:100 },
-    { name_ko:'이수진', power:0.28, dan:1, quote_ko:'질 수 없어!',      hp:110 },
-    { name_ko:'최강준', power:0.34, dan:2, quote_ko:'자신 있나?',       hp:120 },
+    { name_ko:'박민수', power:0.22, dan:1, quote_ko:'열심히 해봐!',     hp:400 },
+    { name_ko:'이수진', power:0.28, dan:1, quote_ko:'질 수 없어!',      hp:450 },
+    { name_ko:'최강준', power:0.34, dan:2, quote_ko:'자신 있나?',       hp:510 },
   ],
   city: [
-    { name_ko:'한무도', power:0.42, dan:2, quote_ko:'시 대표다!',        hp:150 },
-    { name_ko:'강검사', power:0.48, dan:3, quote_ko:'검도는 내 인생.',   hp:165 },
-    { name_ko:'오달인', power:0.54, dan:3, quote_ko:'가볍게 보지 마라.', hp:180 },
+    { name_ko:'한무도', power:0.42, dan:2, quote_ko:'시 대표다!',        hp:620 },
+    { name_ko:'강검사', power:0.48, dan:3, quote_ko:'검도는 내 인생.',   hp:705 },
+    { name_ko:'오달인', power:0.54, dan:3, quote_ko:'가볍게 보지 마라.', hp:800 },
   ],
   regional: [
-    { name_ko:'도 챔피언 윤', power:0.60, dan:5, quote_ko:'도 최강이다.',    hp:220 },
-    { name_ko:'철의 검사 문', power:0.67, dan:6, quote_ko:'철의 의지!',      hp:250 },
-    { name_ko:'흑룡 서',      power:0.74, dan:6, quote_ko:'흑룡의 검!',      hp:280 },
+    { name_ko:'도 챔피언 윤', power:0.60, dan:5, quote_ko:'도 최강이다.',    hp:820 },
+    { name_ko:'철의 검사 문', power:0.67, dan:6, quote_ko:'철의 의지!',      hp:860 },
+    { name_ko:'흑룡 서',      power:0.74, dan:6, quote_ko:'흑룡의 검!',      hp:900 },
   ],
   national: [
-    { name_ko:'전국 강자 정', power:0.80, dan:7, quote_ko:'전국 최강을 꿈꾸나?',      hp:350 },
-    { name_ko:'검성 이도',    power:0.88, dan:8, quote_ko:'검성의 경지를 보여주마.',  hp:400 },
-    { name_ko:'미야모토 켄',  power:0.96, dan:9, quote_ko:'나를 넘을 수 있겠느냐.',  hp:500, is_final_boss:true },
+    { name_ko:'전국 강자 정', power:0.80, dan:7, quote_ko:'전국 최강을 꿈꾸나?',      hp:930 },
+    { name_ko:'검성 이도',    power:0.88, dan:8, quote_ko:'검성의 경지를 보여주마.',  hp:990 },
+    { name_ko:'미야모토 켄',  power:0.96, dan:9, quote_ko:'나를 넘을 수 있겠느냐.',  hp:1100, is_final_boss:true },
   ],
 };
 
