@@ -21,8 +21,8 @@ function showIntroScreen(onDone) {
         <div class="goal-item"><span class="goal-num">01</span><span>수련을 반복해 스탯을 올려라</span></div>
         <div class="goal-item"><span class="goal-num">02</span><span>스킬을 해금하고 기술을 연마하라</span></div>
         <div class="goal-item"><span class="goal-num">03</span><span>단수를 올려 대회 참가 자격을 얻어라</span></div>
-        <div class="goal-item"><span class="goal-num">04</span><span>지역 → 시 → 도 → <span style="color:var(--accent2);font-weight:700;">전국대회</span> 우승!</span></div>
-        <div class="goal-item"><span class="goal-num">05</span><span>전국 최강 <span style="color:var(--accent);">미야모토 켄</span>을 쓰러뜨려라</span></div>
+        <div class="goal-item"><span class="goal-num">04</span><span>지역 → 시 → 도 → 전국대회 → <span style="color:var(--accent2);font-weight:700;">세계대회</span> 우승!</span></div>
+        <div class="goal-item"><span class="goal-num">05</span><span>세계 최강 <span style="color:var(--accent);">???</span>를 쓰러뜨려라</span></div>
       </div>
 
       <div style="animation:fadeInUp .8s 1.3s both;">
