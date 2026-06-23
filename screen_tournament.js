@@ -147,7 +147,7 @@ function _runTournament(container, stageId, opponents) {
         <div style="font-size:60px;margin-bottom:16px;animation:popIn .5s ease;">${won?'🏆':'😔'}</div>
         <div style="font-size:20px;font-weight:900;margin-bottom:10px;color:${won?'var(--gold)':'var(--text2)'};">${won?'대회 우승!':'대회 탈락'}</div>
         ${won?`<div style="font-size:14px;color:var(--text2);margin-bottom:6px;">+${stage.prize.toLocaleString()}G 획득</div>`:''}
-        ${won&&stage.is_final?`<div style="font-size:14px;color:var(--gold);margin-bottom:6px;">🎉 전국대회 우승!</div>`:''}
+        ${won&&stage.is_final?`<div style="font-size:14px;color:var(--gold);margin-bottom:6px;">🎉 세계대회 우승!</div>`:''}
         <div style="font-size:11px;color:var(--text3);margin-bottom:30px;">${opponents.length}명의 상대와 겨뤘습니다</div>
         <button class="btn btn-primary btn-full" id="result-ok">확인</button>
       </div>
