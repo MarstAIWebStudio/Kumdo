@@ -199,7 +199,7 @@ const TOURNAMENT_STAGES = [
   { id:'local',    ko:'지역 대회',  req_dan:1, ai_power:0.28, prize:1500,  icon:'🏯', desc:'첫 번째 관문. 지역 검도인들과 겨룹니다.' },
   { id:'city',     ko:'시 대회',    req_dan:2, ai_power:0.45, prize:4000,  icon:'🏟️', desc:'시를 대표하는 강자들이 모입니다.' },
   { id:'regional', ko:'도 대회',    req_dan:4, ai_power:0.62, prize:12000, icon:'⛩️', desc:'도 최강을 가리는 대회입니다.' },
-  { id:'national', ko:'전국 대회',  req_dan:6, ai_power:0.82, prize:50000, icon:'🇰🇷', desc:'전국 최강자를 가리는 무대입니다.' },
+  { id:'national', ko:'전국 대회',  req_dan:6, ai_power:0.82, prize:50000, icon:'⚔️', desc:'전국 최강자를 가리는 무대입니다.' },
   { id:'world', ko:'세계 대회',  req_dan:6, ai_power:0.82, prize:50000, icon:'🌏', desc:'세계 제일을 기리는 최후의 무대입니다.', is_final:true },
 ];
 
