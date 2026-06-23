@@ -200,7 +200,7 @@ const TOURNAMENT_STAGES = [
   { id:'city',     ko:'시 대회',    req_dan:2, ai_power:0.45, prize:4000,  icon:'🏟️', desc:'시를 대표하는 강자들이 모입니다.' },
   { id:'regional', ko:'도 대회',    req_dan:4, ai_power:0.62, prize:12000, icon:'⛩️', desc:'도 최강을 가리는 대회입니다.' },
   { id:'national', ko:'전국 대회',  req_dan:6, ai_power:0.82, prize:50000, icon:'⚔️', desc:'전국 최강자를 가리는 무대입니다.' },
-  { id:'world', ko:'세계 대회',  req_dan:9, ai_power:0.82, prize:5000000, icon:'🌏', desc:'세계 제일을 기리는 최후의 무대입니다.', is_final:true },
+  { id:'world', ko:'세계 대회',  req_dan:9, ai_power:0.99, prize:5000000, icon:'🌏', desc:'세계 제일을 기리는 최후의 무대입니다.', is_final:true },
 ];
 
 const TOURNAMENT_OPPONENTS = {
@@ -225,9 +225,9 @@ const TOURNAMENT_OPPONENTS = {
     { name_ko:'미야모토 켄',  power:0.96, dan:9, quote_ko:'나를 넘을 수 있겠느냐.',  hp:1100 },
   ],
   world: [
-    { name_ko:'켄지', power:0.80, dan:7, quote_ko:'미안한데, 내가 우승해줄게.',      hp:1300 },
-    { name_ko:'레이',    power:0.88, dan:8, quote_ko:'you cannot win',  hp:1800 },
-    { name_ko:'???',  power:0.96, dan:9, quote_ko:'이길 수 있겠어?',  hp:2200, is_final_boss:true },
+    { name_ko:'켄지', power:0.99, dan:7, quote_ko:'미안한데, 내가 우승해줄게.',      hp:1300 },
+    { name_ko:'레이',    power:1, dan:8, quote_ko:'you cannot win',  hp:1800 },
+    { name_ko:'???',  power:1, dan:9, quote_ko:'이길 수 있겠어?',  hp:2200, is_final_boss:true },
   ],
 };
 
